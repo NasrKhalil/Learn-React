@@ -1,0 +1,5 @@
+npm install -g yarn
+yarn create vite
+ cd projectname
+ yarn install
+  yarn dev    
