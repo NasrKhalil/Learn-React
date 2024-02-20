@@ -4,7 +4,7 @@ import "./index.css";
 // import App from "./App";
 import Hobbies from "./components/Hobbies";
 import Comp1 from "./components/comp1";
-import Comp2 from "./components/comp2";
+import Comp2 from "./components/Comp2";
 import Form from "./components/Form";
 import Rev from "./components/Rev";
 import reportWebVitals from "./reportWebVitals";
@@ -17,7 +17,6 @@ root.render(
     <Hobbies/>
     <Rev/>
     <Form/>
-    <Comp2 />
   </React.StrictMode>
 );
 
