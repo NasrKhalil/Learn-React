@@ -3,8 +3,11 @@ import React, { useState } from "react";
 // decalre functions
 // create buttons to increment and decrement
 function UseState() {
+  // Initialize state using the useState hook:
   const [count, setCount] = useState(0);
-
+/*useState initializes the state with a value of 0 and returns an array with two elements:
+count: the current state value.
+setCount: a function to update the state*/
   const add = () => {
     setCount((prevCount) => prevCount + 1);
   };
